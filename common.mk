@@ -13,7 +13,7 @@
 # limitations under the License.
 
 QCOM_COMMON_PATH := device/qcom/common
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
+TARGET_FWK_SUPPORTS_FULL_VALUEADDS := false
 
 ifeq ($(TARGET_BOARD_PLATFORM),)
 $(error "TARGET_BOARD_PLATFORM is not defined yet, please define in your device makefile so it's accessible to QCOM common.")
